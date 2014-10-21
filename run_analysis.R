@@ -53,7 +53,7 @@ outFile <- file("FullUCIHARDataset", "w+")
 write.table(all_data, outFile)
 close(outFile)
 
-#crating the aggregate
+#creating the aggregate
 result <- aggregate( formula = .~activity+subject, data = all_data, FUN = mean )
 
 #writing to file the summary
