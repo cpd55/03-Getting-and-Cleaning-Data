@@ -93,12 +93,14 @@ Column number	|	Column name	|	Description	|	Variable type
 The source dataset is:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-The following modifications were made:
+### The following modifications were made
+
 1. I merged the training and the test sets to create one data set.
 2. I Extracted only the measurements on the mean and standard deviation for each measurement. 
 3. I used descriptive activity names to name the activities in the data set
 4. I appropriately labelled the data set with descriptive variable names. 
 5. From the data set in step 4, I created a second, independent tidy data set with the average of each variable for each activity and each subject.
+
 
 ## Information about the experimental study design
 The datasource was collected from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
