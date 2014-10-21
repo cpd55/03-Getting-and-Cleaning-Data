@@ -46,11 +46,6 @@ all_data  <- rbind (X_test,X_train)
 #renaming the activity names
 all_data[,1] = act_lbls[all_data[,1]]
 
-#writing to file to save the data
-outFile <- file("FullUCIHARDataset", "w+")
-write.table(all_data, outFile)
-close(outFile)
-
 #creating the aggregate
 result <- aggregate( formula = .~activity+subject, data = all_data, FUN = mean )
 

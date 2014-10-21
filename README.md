@@ -3,7 +3,9 @@
 
 03 Getting and Cleaning Data
 
-The program does the following steps:
+The Codebook.md holds the definition about data.
+
+The run_analysis.R does the following steps:
 
 1. Loading
   1. Loading the test data
@@ -23,9 +25,8 @@ The program does the following steps:
   2. Setting the column names of the datasets
   3. Putting together rows - appending the test and the train data
   4. Relabel the activity names - replace the numbers to labels
+  5. Creating the aggregate
 
 4. Save
-  1. Writing to file to save the data
-  2. Creating the aggregate
-  3. Writing to file the summary
+  1. Writing to file to save the summary
 
