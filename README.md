@@ -1,8 +1,6 @@
 03-Getting-and-Cleaning-Data peer assessment
 ============================
 
-03 Getting and Cleaning Data
-
 The Codebook.md holds the definition about data.
 
 The run_analysis.R does the following steps:
